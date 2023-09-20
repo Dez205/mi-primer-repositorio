@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica 1: Circuito NE555</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/David.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">David López Ramírez</div>
+                                <div class="text-muted">Ingeniería Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 8, 2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Integrado 555</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/multisimne555.png" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">Se utilizaron dos plataformas diferentes plataformas diferentes para simular el circuito integrado NE555 antes de construirlo e físico. Dichas plataformas fueron MultiSim y TinkerCAD. En general, se buscó que un LED se encendierá y se apagará periódicamente, asimismo, la velocidad de encendido y apagado se podía controlar con ayuda de un potenciómetro.</p>
+                        <p class="fs-6 mb-4"></p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Para la presente práctica se realizó un circuito con el integrado NE555 como temporizador para que un LED parpadeará, así como un potenciómetro para aumentar la velocidad de parpadeo, además de un capacitor polarizado y transistor NPN. Por ello es importante entender los conceptos que están involucrados. Primeramente, el circuito integrado NE555 se encarga de emitir pulsos de temporización con alta presición, mientras que el transisor NPN se ayudó como amplificador, es decir, se utilizó una pequeña corriente en la base del transistor para controlar una corriente mayor entre el colector y el emisor Por otro lado, el capacitor polarizado funcionó como contenedor de almacenamiento de reserva de energía eléctrica para la carga y el potenciómetro como resistencia variable a la que se le podía manipular el valor.</p>                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <li> Circuito integrado NE555.<li>Potenciómetro.</li> <li>Transistor NPN.</li> <li>Capacitor polarizado 16V y 47µF.</li> <li>2 resistencias de 1kΩ.</li> <li>1 resistencia de 220Ω.</li> <li>1 LED.</li> <li>1 protoboard.</li> <li>Cables macho-macho.</li> <li>Fuente de energía.</li>
+                </li>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">La práctica se desarrollo en tres partes. La primera fue la realización del esquema en MultiSim, la segunda fue la realización del prototipo armado en TinkerCAD y la última se realizó en físico.</p>
+                        <p class="fs-6 mb-4">Para MultiSim, simplemente se utilizaron las herramientas para conectar y agregar los componentes requeridos para el armado.</p>
+                        <p class="fs-6 mb-4">En el caso de TinkerCAD, los componentes son más fáciles de visualizar y más intuitivos. Asimismo, el cableado se pudo ordenar de mejor manera por códigos de colores. Es importante recalcar que el uso de la plataforma TinkerCAD, así como MultiSim sirvieron para evitar accidentes en el laboratorio y corroborar el armado correcto del circuito.</p>
+                        <p class="fs-6 mb-4">La tercera parte fue el armado en físico, que significó traspasar el armado de TinkerCAD a componentes físicos y, muchas veces resulta fácil confundirse debido al desorden que se puede tener al momento de conectar los cables.</p>
+                        
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">La simulación de TinkerCAD ayudó a evitar futuros errores. Uno de los más dañinos para el LED sería no colocarle una resistencia adecuada, cosa que fue marcada como advertencia por TinkerCAD. Sin embargo, para la primera práctica la simulación se tornó sencilla puesto que carecía de código y las conexiones fueron bastante simples.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ne555.png" alt="..." /></figure>
+                    
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">En este caso no hubo ningún diseño</p>
+                            <p class="fs-6 mb-4"></p>
+                            
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">En primer lugar, se alimentó al potenciómetro para mostrar un valor de sálida que pasa por una resistencia de 1kΩ y manda el voltaje a Discharge, Threshold y Trigger del circuito integrado NE555. De la misma manera, el lado positivo del capacitor polarizado esta conectado a Trigger del circuito integrado NE555, con ello, el voltaje resultante sale por Output pasando por otra resistencia de 1kΩ que llega a la base del Transistor NPN y a su vez, el voltaje del Colector se dirige al Ánodo del LED. Finalmente se hicieron las conexiones necesarias para alimentar GRD y VCC del protoboard.</p>
+                            
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">El primer resultado fue fallido debido a que el capacitor conectado contaba con 0.47µF y, el valor requerido era de 47µF. Sin embargo, después de corregir dicho error, el circuito funcionó correctamente.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/circuitointegradone555.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Se puede concluír con la importancia del uso de los simuladores para evitar cometer errores al momento del armado en físico. Asimismo, la utilidad de ambas plataformas ayudan a optimizar los recursos y hacer una idea exacta de los componentes requeridos. Además de ello, se observó la utilidad del integrado NE555, el cuál entre muchas de sus funciones, en la práctica se utilizó la de temporizador, sin mencionar también la importancia del capacitor que ayuda a mantener el periodo de encendido y apagado del LED. Así como la importancia y manera de uso de un potenciómetro, que, en base a una resistencia variable puede permitir la entrada de mayor o menor voltaje.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">[1] “El Transistor NPN - estructura y aplicaciones - HeTPro-Tutoriales”. HeTPro-Tutoriales. Accedido el 8 de septiembre de 2023. [En línea]. Disponible: https://hetpro-store.com/TUTORIALES/transistor-npn/.</p>
+                        <p class="fs-6 mb-4">[2] “Multisim Live Online Circuit Simulator”. NI Multisim Live. Accedido el 8 de septiembre de 2023. [En línea]. Disponible: https://www.multisim.com/</p>
+                        <p class="fs-6 mb-4">[3] N. Powers. “Capacitores polarizados: simples en concepto, pero no en implementación”. ARROWS. Accedido el 8 de septiembre de 2023. [En línea]. Disponible: https://www.arrow.com/es-mx/research-and-events/articles/polarized-capacitors-simple-in-concept-not-in-implementation.</p>
+                        <p class="fs-6 mb-4">[4] “Potenciómetro | Arduino”. Centro de Cómputo Académico. Accedido el 8 de septiembre de 2023. [En línea]. Disponible: http://ceca.uaeh.edu.mx/informatica/oas_final/OA4/potencimetro.html</p>
+                        <p class="fs-6 mb-4">[5] “Teoría del 555”. Universitat de València. Accedido el 8 de septiembre de 2023. [En línea]. Disponible: https://www.uv.es/marinjl/electro/555.htm</p>
+                        <p class="fs-6 mb-4">[6] “Tinkercad | From mind to design in minutes”. Tinkercad. Accedido el 8 de septiembre de 2023. [En línea]. Disponible: https://www.tinkercad.com/</p>
+                        
+
+                        <!-- Footer
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar documento PDF: <a href="files/Documento.pdf">documento.pdf</a> </p>
+                        <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/Ejemplo_arduino_bluetooth.ino">codigo.ino</a> </p>
+                        <p class="fs-6 mb-4">Descargar Archivo 3d .STL: <a href="files/Pieza_3D.STL">pieza.stl</a> </p>
+                  <!-- Footer-->
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
